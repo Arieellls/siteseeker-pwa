@@ -14,6 +14,16 @@ module.exports = withPWA({
         hostname: "res.cloudinary.com",
         pathname: "/**",
       },
+      {
+        protocol: "http",
+        hostname: "localhost",
+        pathname: "/**",
+      },
+      {
+        protocol: "http",
+        hostname: "192.168.100.9",
+        pathname: "/**",
+      },
     ],
   },
 });
