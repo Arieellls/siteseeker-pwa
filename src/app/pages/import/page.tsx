@@ -28,7 +28,7 @@ export default function ImportPage() {
     formData.append("file", selectedFile);
 
     try {
-      const response = await fetch("https://192.168.100.9:8080/predict", {
+      const response = await fetch("http://192.168.100.9:8080/predict", {
         method: "POST",
         body: formData,
       });
